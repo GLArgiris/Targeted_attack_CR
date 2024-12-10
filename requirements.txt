@@ -1,0 +1,10 @@
+#packages used in the scripts
+
+numpy>=1.22.0
+scipy>=1.8.0
+matplotlib>=3.5.0
+pandas>=1.3.0
+brainconn @ github+https://github.com/fiuneuro/brainconn.git
+networkx>=2.5
+statsmodels>=0.13.0
+scikit-learn>=1.0.0
