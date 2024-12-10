@@ -37,7 +37,7 @@ usually reflected in the function that you will choose to extract each
 graph theory metric (e.g., BCT function extensions usually say "wu"
 weighted undirected) or "und" (undirected)
 
-- s_lam: Lambda (shortest path length)- The shortest path length between two nodes in a network 
+- s_lam: lambda (characteristic path length)- The shortest path length between two nodes in a network 
     % %is the minimum number of edges (or connections) that need to be traversed to get from one node to the other. 
     
 - s_geff: global efficiency- efficiency of information transfer across the entire network. 
