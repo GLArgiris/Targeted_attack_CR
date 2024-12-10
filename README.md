@@ -24,6 +24,10 @@ You will find five scripts to execute. The script (preprocess_data.py) prepares 
 The data provided is only mock data of 10 participants with 419 x 419 edge connections (87571 edges in total). The matrices are arranged as vectors to comprise a 2D edge x participant matrix. After preprocessing, the compute_metrics_org.py script extracts the graph theory metrics for the original matrices. The compute_metrics_rand.py scripts computes the same metrics (apart from tracking the node removed on each iteration and the nodal degree for all nodes for each iteration, which were done only for the original data matrices), on the randomized data matrices. After, calculate_slope.py calculates the iteration of largest slope decline for the LCC and calculate_small_world.py calculates the small-world statistic across each lesioning iteration.
 The statistical_analysis.py script provides the regressions used for the analyses. The small-world calculation for the unlesioned matrix was the only value used from the small-world matrix.The participant data information, at both baseline (T1) and follow-up (T2) should be loaded and are found in the data folder. 
 
+### Computing time and output
+
+In the participant for-loop, the amount of time that it takes for each iteration is listed. On an Apple M1 Chip, the processing time per participant was around 400 seconds (~6.67 minutes). Each matrix is saved as separate output and should go to a specified output directory. At the end of each script, the output is indicated. 
+
 # Graph theory metrics
 
 The analysis was originally performed in MATLAB using brain connectivity toolbox (Sporns & Rubinov, 2010). In the spirit of free software, I tried to adapt it to Python. As I am not a coder, one should certainly check through each of the scripts.
