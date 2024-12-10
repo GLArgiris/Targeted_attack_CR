@@ -32,10 +32,8 @@ In the participant for-loop, the amount of time that it takes for each iteration
 
 The analysis was originally performed in MATLAB using brain connectivity toolbox (Sporns & Rubinov, 2010). In the spirit of free software, I tried to adapt it to Python. As I am not a coder, one should certainly check through each of the scripts.
 
-We are mainly working with undirected, weighted graphs, and this is
-usually reflected in the function that you will choose to extract each
-graph theory metric (e.g., BCT function extensions usually say "wu"
-weighted undirected) or "und" (undirected)
+We are mainly working with undirected, weighted graphs, and this is usually reflected in the function that you will choose to extract each
+graph theory metric (e.g., BCT function extensions usually say "wu" weighted undirected) or "und" (undirected). Keep in mind that while the number of nodes is 419, the size of the graph theory matrices is 420. This is because the first iteration is the graph theory metric extracted for **the unlesioned matrix**. 
 
 - s_lam: lambda (characteristic path length)- The shortest path length between two nodes in a network. It is the minimum number of edges (or connections) that need to be traversed to get from one node to the other. 
     
