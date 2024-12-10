@@ -33,22 +33,22 @@ usually reflected in the function that you will choose to extract each
 graph theory metric (e.g., BCT function extensions usually say "wu"
 weighted undirected) or "und" (undirected)
 
--s_lam: Lambda (shortest path length)- The shortest path length between two nodes in a network 
+- s_lam: Lambda (shortest path length)- The shortest path length between two nodes in a network 
     % %is the minimum number of edges (or connections) that need to be traversed to get from one node to the other. 
     
--s_geff: global efficiency- efficiency of information transfer across the entire network. 
+- s_geff: global efficiency- efficiency of information transfer across the entire network. 
     %  It is  the average of the inverse shortest path length between all pairs of nodes.
 
--s_clus: clustering coefficient (global)- the likelihood that neighbors of a given node are connected to each other. 
+- s_clus: clustering coefficient (global)- the likelihood that neighbors of a given node are connected to each other. 
     % It quantifies the tendency of nodes in a network to form clusters, and we take the average across all nodes. 
 
--s_lcc: largest connected component (primary measure)- it is the largest subgraph, or number of nodes,  
+- s_lcc: largest connected component (primary measure)- it is the largest subgraph, or number of nodes,  
     % in which any pair of nodes is connected directly or indirectly through a series of edges.
 
--s_mod: modularity- it's how well a network can be separated into clusters where connections within the same cluster 
+- s_mod: modularity- it's how well a network can be separated into clusters where connections within the same cluster 
     % are stronger or more frequent than connections between different clusters. Measure of segregation.
 
--nodecount- the node that is removed at each threshold
+- nodecount: the node that is removed at each threshold
     
--nodedegree- the number of edges connected to each node, at each thresholding level
+- nodedegree: the number of edges connected to each node, at each thresholding level
 
