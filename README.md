@@ -7,12 +7,14 @@ This project requires the following Python packages to run. All dependencies are
 
 pip install -r requirements.txt
 
-Key Dependencies:
+### Key Dependencies:
 
-numpy: For numerical computations.  
-scipy: For scientific computing and advanced mathematical functions.  
-brainconn: For brain connectivity analysis and graph theory computations.  
-pandas: For data manipulation and analysis.  
+- `numpy` For numerical computations.  
+- `scipy` For scientific computing and advanced mathematical functions.  
+- `brainconn` For brain connectivity analysis and graph theory computations.  
+- `pandas` For data manipulation and analysis.  
+- `statsmodels` (for statistical modeling and linear regressions)  
+- `scikit-learn` (for linear regression computations)  
 Ensure you have Python (>=3.8) installed before proceeding.  
 
 # Scripts
