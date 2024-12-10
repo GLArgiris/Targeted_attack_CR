@@ -14,7 +14,8 @@ pip install -r requirements.txt
 - `brainconn` For brain connectivity analysis and graph theory computations.  
 - `pandas` For data manipulation and analysis.  
 - `statsmodels` (for statistical modeling and linear regressions)  
-- `scikit-learn` (for linear regression computations)  
+- `scikit-learn` (for linear regression computations)   
+
 Ensure you have Python (>=3.8) installed before proceeding.  
 
 # Scripts
