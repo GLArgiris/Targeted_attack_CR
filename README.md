@@ -9,12 +9,11 @@ pip install -r requirements.txt
 
 Key Dependencies:
 
-numpy: For numerical computations.
-scipy: For scientific computing and advanced mathematical functions.
-brainconn: For brain connectivity analysis and graph theory computations.
-matplotlib: For data visualization.
-pandas: For data manipulation and analysis.
-Ensure you have Python (>=3.8) installed before proceeding.
+numpy: For numerical computations.  
+scipy: For scientific computing and advanced mathematical functions.  
+brainconn: For brain connectivity analysis and graph theory computations.  
+pandas: For data manipulation and analysis.  
+Ensure you have Python (>=3.8) installed before proceeding.  
 
 # Scripts
 
